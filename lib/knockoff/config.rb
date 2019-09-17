@@ -91,7 +91,7 @@ module Knockoff
                 'password' => uri.password,
                 'host' => uri.host,
                 'port' => uri.port
-              }
+              }.merge(Rack::Utils.parse_query(uri.query))
             end
 
           # Store the hash in configuration and use it when we establish the connection later.
