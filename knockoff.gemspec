@@ -4,7 +4,7 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'knockoff/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = "knockoff"
+  spec.name          = "thanx-knockoff"
   spec.version       = Knockoff::VERSION
   spec.authors       = ["Scott Ringwelski"]
   spec.email         = ["me@sgringwe.com"]
